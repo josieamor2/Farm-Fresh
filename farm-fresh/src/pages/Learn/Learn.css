@@ -1,13 +1,22 @@
 p{
   color:#000;
 }
+.page-title{
+  margin:150px 0;
+  color:#fff;
+}
 .learn{
   font-family: korolev-condensed, sans-serif;
 font-weight: 700;
 font-style: normal;
 margin:0 auto;
-padding-top:70px;
+padding-top:50px;
 letter-spacing: .07em;
+padding-bottom:80px;
+}
+.learn-row{
+  background-color:#fff;
+  margin-bottom: 200px;
 }
 .learn h2{
   font-family: korolev-rounded,sans-serif;
@@ -31,4 +40,39 @@ font-size:14px;
 }
 .learn-p{
   margin-top:30px;
+}
+
+.button-style{
+  text-align:center;
+    
+  border:#56a917 solid 2px;
+  font-size:24px;
+  background-color: rgba(0, 0, 255, 0);
+  border-radius:10px;
+  color:#56a917;
+  padding:10px 20px;
+  font-family: korolev-condensed, sans-serif;
+
+font-weight: 300;
+
+font-style: normal;
+margin-top:20px;
+
+
+}
+.button-style:hover{
+  font-size:30px;
+  text-decoration:none;
+  color:#3c7511;
+  transition-duration:.5s;
+}
+.learn > .center{
+  margin-top:50px;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }

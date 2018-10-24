@@ -1,16 +1,18 @@
-import React, { Component } from "react";
-
+import React from "react";
+import { Parallax, Background} from 'react-parallax';
 import "./Header.css";
 
 const Header = () => (
 
     <div className="header">
-        <div className="header-img">
-            {/* <img src="" alt="header" /> */}
-            <div className="image-here">
-            </div>
-        </div>
-        <h1 className="page-title">LEARN</h1>
+        <Parallax strength={400}>
+        
+            <Background className="custom-bg">
+                <img src="/images/learn.jpg" alt="carrots" />
+            </Background>
+            <h1 className="page-title ">LEARN</h1>
+        </Parallax>
+        
     </div>
 
 
