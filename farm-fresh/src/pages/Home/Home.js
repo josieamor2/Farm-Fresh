@@ -8,7 +8,7 @@ class Home extends Component {
         return (
             
             <div className="Home">
-            <Nav />
+            
                 <video autoPlay loop id="video-background" muted >
                     <source src={'../videos/background.mp4'} type="video/mp4" />
                 </video>

@@ -1,7 +1,8 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import Nav from "../../components/Nav";
 import Header from "../../components/Header";
+import ProgressBar from "../../components/ProgressBar";
 import "./GetStarted.css";
 
 class GetStarted extends Component {
@@ -10,17 +11,40 @@ class GetStarted extends Component {
 
             <div>
                 <Nav />
-                <Header />
-                <div className="container">
-                    <div className="learn col-lg-5">
-                        <h2 className="learn-h2">DO YOU WANT TO EAT ORGANICALLY BUT DON'T HAVE ROOM TO GROW OR KNOW WHERE TO GET THOSE TASTY GOODS?</h2>
-                        <div className="learn-p">
-                            <p >Farm Fresh is all about connecting farmers and consumers looking to produce pesticide-free organically grown fresh foods. </p><p> As our culture grows, we are learning what is healthy for us and what is not. Science is aiding us in discovering that foods that are grown in the most natural state are what we need.</p>
+
+                <Header title={'GET STARTED'} image={'get-started.jpg'}>
+
+                    <div className="full-row">
+                        <ProgressBar />
+                        <div className="get-started-1 container">
+                            <form>
+                                <div className="center-row location col-lg-6 ">
+                                    <div className="row">
+                                        <h3 className="col-lg-3">LOCATION:</h3>
+                                        <input className="col-lg-9" type="text" name="location" />
+                                    </div>
+
+
+                                    <h3 className="col-lg-12 q-2">WHAT WOULD YOU LIKE TO DO?</h3>
+                                    <div className="row d-flex justify-content-between">
+                                        <a href="">
+                                            <div className="ball-2"><p>START A GARDEN?<br></br><span>starting at $39.95/month</span></p></div>
+                                        </a>
+                                        <a href="">
+                                            <div className="ball-2"><p>BUY FROM THE PROFESSIONALS</p></div>
+                                        </a>
+                                        <a href="">
+                                            <div className="ball-2"><p>BUY THE GOODS</p></div>
+                                        </a>
+                                    </div>
+                                    
+                                </div>
+                            </form>
                         </div>
                     </div>
-                </div>
-                <Link className="get-started" to='/get-started'>Get Started</Link>
-            </div>
+
+                </Header>
+            </div >
         );
     }
 }

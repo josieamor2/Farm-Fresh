@@ -1,5 +1,5 @@
-.header{
-    /* background-image: url(/images/learn.jpg); */
+/* .header{
+    background-image: url(/images/learn.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     height: 300px;
@@ -7,7 +7,7 @@
 }
 .header h1{
     color:#fff;
-}
+} */
 .custom-bg img{
     width:100% !important;
 }

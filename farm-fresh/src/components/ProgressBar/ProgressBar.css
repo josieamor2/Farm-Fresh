@@ -1,0 +1,40 @@
+.ball{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    
+    background-color:#fff;
+    border:2px solid rgba(19, 17, 5, 0.68);
+}
+.balls{
+    top:-25px;
+}
+.progress{
+    height:2px;
+    /* width: 100%; */
+    background-color:rgba(19, 17, 5, 0.68);
+   
+    margin:0 auto;
+    
+}
+.progress-bar{
+    width:0%;
+}
+.center-row.balls.col-lg-6.d-flex.justify-content-between{
+    padding-left:0px !important;
+    padding-right:0px !important;
+}
+.center-row{
+    margin: 0 auto;
+}
+/* .line{
+    margin:0 auto;
+    width:20%;
+    height:2px;
+    background-color:green;
+    margin-bottom:-25px;
+
+} */
+.progress-line{
+    margin-top:50px;
+}

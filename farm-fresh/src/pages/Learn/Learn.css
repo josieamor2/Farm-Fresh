@@ -4,6 +4,7 @@ p{
 .page-title{
   margin:150px 0;
   color:#fff;
+  font-family: korolev-condensed, sans-serif;
 }
 .learn{
   font-family: korolev-condensed, sans-serif;
@@ -14,12 +15,12 @@ padding-top:50px;
 letter-spacing: .07em;
 padding-bottom:80px;
 }
-.learn-row{
+.full-row{
   background-color:#fff;
   margin-bottom: 200px;
 }
 .learn h2{
-  font-family: korolev-rounded,sans-serif;
+  font-family: korolev-condensed,sans-serif;
 font-weight: 700;
 font-style: normal;
   margin-top: 30px;
@@ -68,11 +69,4 @@ margin-top:20px;
 }
 .learn > .center{
   margin-top:50px;
-}
-.navbar {
-  overflow: hidden;
-  background-color: #333;
-  position: fixed;
-  top: 0;
-  width: 100%;
 }
