@@ -1,0 +1,77 @@
+.farm-link{
+    text-decoration:none;
+    color:green;
+    margin-bottom:30px;
+    background-color:#000;
+}
+.farm-link:hover{
+    text-decoration:none;
+}
+.farm-link img{
+    width:300px;
+    height:auto;
+    opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  margin:0 auto;
+  border-radius:10px;
+  background-color:#000;
+  border:4px solid #676767;
+}
+.overlay{
+    background-color: #000;
+    color: black;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    margin:0 auto;
+}
+.farm-card{
+    /* width:30%; */
+    margin:40px 0;
+    padding-bottom:40px;
+    position:relative;
+   
+    
+}
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .farm-card:hover img{
+      opacity:.4;
+      
+  }
+  
+.farm-card:hover .middle{
+    opacity:1;
+
+}
+.middle h2{
+    /* background-color: green; */
+  color: white;
+  font-size: 26px;
+  font-family: korolev-condensed, sans-serif;
+
+font-weight: 700;
+
+font-style: normal;
+  /* padding: 16px 32px; */
+}
+
+.farm-card h2{
+    margin-top:-30px;
+    text-transform: uppercase;
+}
+.farm{
+    padding:0 20px;
+}

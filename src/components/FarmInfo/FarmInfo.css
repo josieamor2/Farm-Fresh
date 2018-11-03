@@ -1,0 +1,84 @@
+.farm img{
+    width:300px;
+    height:300px;
+    
+}
+.farm{
+    display: inline-block;
+    margin-top:30px;
+    
+}
+.farm img{
+    float:left;
+}
+.farm p{
+   display:inline-block;
+   float:left; 
+}
+.farm h2{
+    font-family: korolev-condensed, sans-serif;
+
+font-weight: 700;
+
+font-style: normal;
+}
+.about{
+    display: inline-block;
+    font-family: korolev, sans-serif;
+
+font-weight: 300;
+
+font-style: normal;
+font-size:16px;
+text-align:justify;
+}
+.each{
+    width:80px;
+    height:80px;
+    border-radius:50%;
+   background-color:#554a44;
+   
+    display: inline-block;
+    margin:10px;
+}
+.eachFruit{
+    
+    
+    font-size:11px;
+    text-transform: uppercase;
+    color:#fff;
+    
+position: relative;
+top: 50%;
+left: 50%;
+
+transform: translate(-50%, -50%);
+text-align: center;
+
+   
+}
+.fruitsTitle{
+    margin-left:30px;
+    margin-top:20px;
+    font-family: korolev, sans-serif;
+
+font-weight: 300;
+
+font-style: normal;
+}
+.checkout-button{
+    font-size:18px;
+  font-family: korolev, sans-serif;
+font-weight: 700;
+font-style: normal;
+color:#fff;
+text-align: left;
+text-transform: uppercase;
+    background-color:green;
+    padding: 10px;
+    border-radius: 10px;
+    float:left;
+}
+.bottom{
+    padding-bottom:50px;
+}
