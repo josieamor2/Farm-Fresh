@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.2/workbox-sw.js");
 
 importScripts(
-  "/josieamor2/Farm-Fresh/precache-manifest.e30defd61726b022361c4c692971e7ff.js"
+  "/josieamor2/Farm-Fresh/precache-manifest.ca5f2c0573e618cd7f9551aee46b92f5.js"
 );
 
 workbox.clientsClaim();
